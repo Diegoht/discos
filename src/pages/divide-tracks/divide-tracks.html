@@ -7,12 +7,18 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>DivideTracks</ion-title>
+    <ion-title>Tracks</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding style="background-color:rgb(196,190,193)">
+
+  <ion-list style="background-color:rgb(196,190,193)">
+    <ion-item *ngFor="let c2 of tracks2" style="background-color:rgb(196,190,193)">
+        <ion-label style="color: white">{{c2}}</ion-label>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
