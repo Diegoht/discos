@@ -7,12 +7,17 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>NightVTracks</ion-title>
+    <ion-title>Tracklist</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding style="background-color:rgb(157,114,115)">
+    <ion-list style="background-color:rgb(157,114,115)">
+        <ion-item *ngFor="let c4 of tracks4" style="background-color:rgb(157,114,115)">
+            <ion-label style="color: white">{{c4}}</ion-label>
+        </ion-item>
+      </ion-list>
 
 </ion-content>
